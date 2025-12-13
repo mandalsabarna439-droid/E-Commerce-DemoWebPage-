@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Templates — Studio Templates</title>
+  
+<link rel="stylesheet" href="core.css">
+<link rel="stylesheet" href="layout.css">
+<link rel="stylesheet" href="components.css">
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="topbar" role="banner">
+    <div class="logo">
+      <img src="logo.svg" alt="" width="40" height="40" aria-hidden="true" />
+      <div class="brand"><p>Studio Templates</p><p class="small">Browse free landing page templates</p></div>
+    </div>
+    <nav class="nav-actions" aria-label="Primary">
+      <a class="ghost" href="index.html">Home</a>
+      <a class="ghost" href="templates.html">Templates</a>
+      <a class="ghost" href="shop.html">Shop</a>
+      <a class="ghost" href="account.html">Account</a>
+      <a class="btn" href="login.html">Sign in</a>
+      <a class="ghost" href="cart.html"><span class="badge">0</span> Cart</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero container">
+    <div class="hero-inner">
+      <h2>Ready-made website templates for any project</h2>
+      <p class="muted">Fully responsive layouts built for learning.</p>
+      <form class="search-row" onsubmit="return false" aria-hidden="true">
+        <label class="search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M21 21l-4.35-4.35" stroke="#666" stroke-width="1.6" stroke-linecap="round"/><circle cx="11" cy="11" r="6" stroke="#666" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <input placeholder="Search templates (presentation only)" />
+        </label>
+        <div class="filters">
+          <a class="filter" href="#landing">Landing pages</a>
+          <a class="filter" href="#portfolio">Portfolio</a>
+          <a class="filter" href="#ecom">E‑commerce</a>
+          <a class="filter" href="#business">Business</a>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <main class="container">
+    <section class="content">
+      <div class="section-head" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+        <div>
+          <p class="muted">Showing</p>
+          <h3>Landing page templates</h3>
+        </div>
+        <div class="muted">Sort: Popular</div>
+      </div>
+
+      <div class="grid" role="list">
+        <!-- Example card (repeat others similarly) -->
+        <article class="card" role="listitem">
+          <a class="card-link" href="#modal1" aria-controls="modal1">
+            <img class="thumb" src="https://assets.onepagelove.com/cdn-cgi/image/width=390,height=520,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2023/11/opl-master-19.jpg" alt="Modern Landing thumbnail" />
+            <div class="meta">
+              <h4>Modern Landing</h4>
+              <p class="muted">Best for startups</p>
+              <div class="tags"><span class="tag">Template</span><span class="tag">Startup</span></div>
+            </div>
+          </a>
+          <div class="card-footer">
+            <span class="muted">Free</span>
+            <a class="view" href="#modal1">Preview →</a>
+          </div>
+        </article>
+
+        <!-- Copy your remaining 11 cards here from your original, just change .footer to .card-footer -->
+        <!-- ... -->
+      </div>
+
+      <nav class="pagination" aria-label="Pagination">
+        <a class="page active" href="#">1</a>
+        <a class="page" href="#">2</a>
+        <a class="page" href="#">3</a>
+        <span class="page" aria-hidden="true">…</span>
+        <a class="page" href="#">10</a>
+      </nav>
+    </section>
+  </main>
+
+  <!-- CSS-only modals -->
+  <div id="modal1" class="modal" aria-hidden="true" role="dialog">
+    <div class="modal-content">
+      <a class="close" href="#" aria-label="Close">&times;</a>
+      <div class="modal-grid">
+        <img src="https://cdn.vectorstock.com/i/preview-1x/96/30/beacon-technology-shopping-concept-vector-30599630.jpg" alt="Modern Landing preview" />
+        <div class="modal-info">
+          <h3>Modern Landing</h3>
+          <p class="muted">Best for startups</p>
+          <p>This is a template preview. Replace images and text with your own content.</p>
+          <a class="btn" href="#">Use template</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copy remaining modals 2–12 similarly -->
+  <!-- ... -->
+
+  <footer class="footer"><div>© Studio Templates</div></footer>
+</body>
+</html>

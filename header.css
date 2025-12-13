@@ -1,0 +1,28 @@
+/* Header */
+.topbar {
+  display:flex;justify-content:space-between;align-items:center;
+  padding:16px 28px;
+  background:linear-gradient(90deg,#445bff 0%,#6b8cff 100%);
+  color:#fff;
+  position:sticky;top:0;z-index:100;
+}
+.topbar .brand h1 { font-size:20px; margin:0; }
+.topbar .brand .small { font-size:12px; color:#e0e7ff; }
+.nav-actions a { display:flex;align-items:center;gap:6px; }
+.nav-actions .btn { background:#fff;color:#445bff;font-weight:700; }
+.nav-actions .ghost { color:#e0e7ff; }
+.cart-link svg { width:18px;height:18px; }
+
+/* Footer */
+.site-footer {
+  background:#0f1724;color:#e5e7eb;
+  padding:28px 18px;margin-top:40px;
+}
+.footer-inner {
+  display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;
+  gap:20px;max-width:1200px;margin:0 auto;
+}
+.footer-brand { display:flex;align-items:center;gap:12px; }
+.footer-links { display:flex;gap:16px;flex-wrap:wrap; }
+.footer-links a { color:#e5e7eb;font-size:14px; }
+.footer-copy { font-size:13px;color:#9ca3af; }
